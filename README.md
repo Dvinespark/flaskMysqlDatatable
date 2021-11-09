@@ -1,3 +1,5 @@
-# flaskMysqlDatatable
+# flask + Mysql + Js Datatable
 
-This code contains example for Python flask Mysql and Js Datatable
+1. Flask application with form submit
+2. JS datatable integration -- dynamic table
+3. Mysql database

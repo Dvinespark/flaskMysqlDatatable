@@ -1,4 +1,7 @@
-function dataTable_renderer(real_data){
+function dataTable_renderer(data){
+
+    let json_data = data.replaceAll("&#34;", '"');
+    let real_data = $.parseJSON(json_data);
     $('#user_dataTable').DataTable( {
                 data: real_data,
                "columnDefs": [
